@@ -1,21 +1,24 @@
-
 __VPS-MANAGER 1.0__
 
-__Recomendado__
+__Recommended__
 - Ubuntu 18
 
-![logo](https://github.com/NT-GIT-HUB/VPS-MANAGER-1.0/blob/main/home.png)
 
-__Instalar apenas o SCRIPT__
 
-```wget https://raw.githubusercontent.com/NT-GIT-HUB/VPS-MANAGER-1.0/main/Plus; chmod 777 Plus;./Plus```
+![logo](https://github.com/caothemanh/VPS-MANAGER/blob/main/home.png)
 
-__Instalar o SCRIPT e atualizar pacotes do sistema__
 
-```apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/NT-GIT-HUB/VPS-MANAGER-1.0/main/Plus; chmod 777 Plus;./Plus```
 
-__Alterar senha Root__
+__Install SCRIPT only__
+
+```wget https://raw.githubusercontent.com/caothemanh/VPS-MANAGER/main/Plus; chmod 777 Plus;./Plus```
+
+__Install SCRIPT and update system packages__
+
+```apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/caothemanh/VPS-MANAGER/main/Plus; chmod 777 Plus;./Plus```
+
+__Change Root Password__
 
 ```sudo -i```
 
-```bash <(wget -qO- https://raw.githubusercontent.com/NT-GIT-HUB/VPS-MANAGER-1.0/main/senharoot.sh)```
+```bash <(wget -qO- https://raw.githubusercontent.com/caothemanh/VPS-MANAGER/main/senharoot.sh)```
